@@ -1,18 +1,18 @@
 {
-    "thingspeak": {
-        "api": "API key",
-        "field": {
-            "label": "Field",
-            "select": "Select field",
-            "field1": "Field 1",
-            "field2": "Field 2",
-            "field3": "Field 3",
-            "field4": "Field 4",
-            "field5": "Field 5",
-            "field6": "Field 6",
-            "field7": "Field 7",
-            "field8": "Field 8"
-        },
-        "name": "Name"
-    }
+  "thingspeak": {
+    "api": "API key",
+    "field": {
+      "label": "Field",
+      "select": "Select field",
+      "field1": "Field 1",
+      "field2": "Field 2",
+      "field3": "Field 3",
+      "field4": "Field 4",
+      "field5": "Field 5",
+      "field6": "Field 6",
+      "field7": "Field 7",
+      "field8": "Field 8"
+    },
+    "name": "Name"
+  }
 }

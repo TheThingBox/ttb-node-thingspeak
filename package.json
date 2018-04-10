@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "description": "This node allow the user to create personal graph with thingspeak.",
   "node-red": {
-      "nodes": {
-          "thingspeak": "thingspeak.js"
-      }
+    "nodes": {
+      "thingspeak": "thingspeak.js"
+    }
   },
   "keywords": [
+    "TheThingBox",
     "node-red",
     "thingspeak"
   ],
