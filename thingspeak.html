@@ -32,21 +32,21 @@
   <h2><p>Thingspeak</p></h2>
   <font size="-1"><p>Thingspeak allows to store data and to create automatically graph with the data.
   <br />For one channel, you can store 8 different field of data and so create 8 different graph
-  <br />A free thingspeak account is necessary : https://thingspeak.com</p>
+  <br />A free thingspeak account is necessary : https://thingspeak.com</p></font>
 
   <p><b>Node description : </b></p>
   <font size="-1"><p>The <b>payload</b> of the message is sent to Thingspeak on the given field.</p></font>
 
   <p><b>How to :</b></p>
   <font size="-1"><p>- api_key : Token which is used to authenticate. Can be found in the section api key, the write api key is needed.
-  <br />- field : Corresponds to a graph. Example : <i>field 1</i></p>
+  <br />- field : Corresponds to a graph. Example : <i>field 1</i></p></font>
 </script>
 
 <script type="text/javascript">
-  RED.nodes.registerType('thingspeak',{
+  RED.nodes.registerType('thingspeak', {
     category: 'storage-output',
     color: "#fff",
-    defaults:
+    defaults: {
       name: {value:""},
       api_key: {value:""},
       field: {value:""}
