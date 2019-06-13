@@ -13,7 +13,7 @@
     "thingspeak"
   ],
   "dependencies": {
-    "request": "2.85.0"
+    "request": "2.88.0"
   },
   "author": "http://www.digitalairways.com/",
   "license": "http://www.wtfpl.net"
